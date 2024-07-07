@@ -61,5 +61,9 @@ public class CourseController {
     public String healthCheck() {
         return "UP";
     }
+    @GetMapping("/test")
+    public String test() {
+        return "Success for the AWS deployment pipeline";
+    }
 
 }
