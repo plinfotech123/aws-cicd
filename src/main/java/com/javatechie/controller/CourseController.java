@@ -30,7 +30,7 @@ public class CourseController {
         return new ResponseEntity<>(courses, HttpStatus.OK);
     }
 
-    @GetMapping
+    @GetMapping("/test123")
     public String test123() {
         return "Successfully pipelined SB app in AWS plate form";
     }
