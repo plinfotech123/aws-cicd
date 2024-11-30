@@ -31,7 +31,7 @@ public class CourseController {
     }
 
     @GetMapping
-    public String test1() {
+    public String test123() {
         return "Successfully pipelined SB app in AWS plate form";
     }
 
