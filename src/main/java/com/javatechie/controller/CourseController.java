@@ -32,7 +32,7 @@ public class CourseController {
 
     @GetMapping
     public String test1() {
-        return "Successfully pipelined SB app in AWS plateform";
+        return "Successfully pipelined SB app in AWS plate form";
     }
 
     @GetMapping(value = "/{id}", produces = "application/json")
