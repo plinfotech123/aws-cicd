@@ -71,4 +71,9 @@ public class CourseController {
         return "Success for the AWS deployment pipeline";
     }
 
+    @GetMapping("/test2")
+    public String test2() {
+        return "Success for the AWS deployment pipeline";
+    }
+
 }
