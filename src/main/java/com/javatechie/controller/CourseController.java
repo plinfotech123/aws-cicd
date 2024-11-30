@@ -30,6 +30,11 @@ public class CourseController {
         return new ResponseEntity<>(courses, HttpStatus.OK);
     }
 
+    @GetMapping
+    public String test1() {
+        return "Successfully pipelined SB app in AWS plateform";
+    }
+
     @GetMapping(value = "/{id}", produces = "application/json")
     public ResponseEntity<Course> getCourseById(@PathVariable int id) {
         Optional<Course> course = courseService.getCourseById(id);
